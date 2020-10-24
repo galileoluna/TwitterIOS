@@ -1,16 +1,14 @@
 //
-//  NotificationsController.swift
+//  ConversationsController.swift
 //  Twitter
 //
 //  Created by Galileo Luna on 24/10/2020.
 //  Copyright © 2020 Galileo Luna. All rights reserved.
 //
 
-
-
 import UIKit
 
-class NotificationsController : UIViewController{
+class ConversationsController : UIViewController{
     
     // Properties
     
@@ -21,8 +19,7 @@ class NotificationsController : UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .green
-        
+        view.backgroundColor = .systemPurple
     }
     
     
