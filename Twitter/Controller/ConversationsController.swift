@@ -15,13 +15,22 @@ class ConversationsController : UIViewController{
     
     // Lifecycle
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+      override func viewDidLoad() {
+          super.viewDidLoad()
+          configureUI()
+          
         
-        view.backgroundColor = .systemPurple
-    }
-    
+          
+      }
+      // Helper
+      
+      func configureUI(){
+            view.backgroundColor = .white
+          
+      
+          navigationItem.title = "Conversations"
+      }
+      
     
 }
 

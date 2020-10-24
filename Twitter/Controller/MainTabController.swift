@@ -48,10 +48,10 @@ class MainTabController: UITabBarController {
         viewControllers = [nav1, nav2, nav3, nav4]
     }
     func templateNavigationController(image:UIImage?, rootViewController: UIViewController) -> UINavigationController{
-            let nav = UINavigationController(rootViewController: rootViewController)
-            nav.tabBarItem.image = image
-            nav.navigationBar.barTintColor = .white
-            return nav
+                let nav = UINavigationController(rootViewController: rootViewController)
+                nav.tabBarItem.image = image
+                nav.navigationBar.barTintColor = .white
+                return nav
               }
     
 }
