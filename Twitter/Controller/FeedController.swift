@@ -1,5 +1,5 @@
 //
-//  MainTabController.swift
+//  FeedController.swift
 //  Twitter
 //
 //  Created by Galileo Luna on 24/10/2020.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class MainTabController: UITabBarController {
-
+class FeedController : UIViewController{
+    
     // Properties
     
     
@@ -18,14 +18,10 @@ class MainTabController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .systemPink
-    }
-    
-    
-    // Helpers
-    
-    func configureViewControllers(){
         
     }
+    
+    
 }
+
+
