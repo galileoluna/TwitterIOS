@@ -12,6 +12,7 @@
 		F81C5BE72544999900AE30FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81C5BE52544999900AE30FB /* Main.storyboard */; };
 		F81C5BE92544999C00AE30FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81C5BE82544999C00AE30FB /* Assets.xcassets */; };
 		F81C5BEC2544999C00AE30FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81C5BEA2544999C00AE30FB /* LaunchScreen.storyboard */; };
+		F85639482544F05500D37BF2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85639472544F05500D37BF2 /* Utilities.swift */; };
 		F86E4DB92544C4BA00E9CE84 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E4DB82544C4BA00E9CE84 /* LoginController.swift */; };
 		F86E4DBB2544C56C00E9CE84 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E4DBA2544C56C00E9CE84 /* RegistrationController.swift */; };
 		F8CCA00F2544A656009E3385 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CCA00E2544A656009E3385 /* MainTabController.swift */; };
@@ -30,6 +31,7 @@
 		F81C5BE82544999C00AE30FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F81C5BEB2544999C00AE30FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F81C5BED2544999C00AE30FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85639472544F05500D37BF2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		F86E4DB82544C4BA00E9CE84 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		F86E4DBA2544C56C00E9CE84 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		F8CCA00E2544A656009E3385 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				F8CCA01C2544BE66009E3385 /* Extensions.swift */,
+				F85639472544F05500D37BF2 /* Utilities.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				F8CCA0172544AA8B009E3385 /* NotificationsController.swift in Sources */,
 				F8CCA01B2544AB97009E3385 /* ConversationsController.swift in Sources */,
+				F85639482544F05500D37BF2 /* Utilities.swift in Sources */,
 				F81C5BE02544999800AE30FB /* AppDelegate.swift in Sources */,
 				F8CCA01D2544BE66009E3385 /* Extensions.swift in Sources */,
 				F86E4DB92544C4BA00E9CE84 /* LoginController.swift in Sources */,
